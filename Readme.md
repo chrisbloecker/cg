@@ -18,6 +18,8 @@ Key bindings:
 * <kbd>left</kbd>/<kbd>right</kbd> rotate the racket
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
 
+![Pong 2D](https://github.com/chrisbloecker/cg/blob/master/img/pong-2d.png?raw=true)
+
 ### 02 - Hugo 2D
 A game similar to frogger, however, the player is running on the road rather than trying to cross it. The focus of this assigment was to get familiar with modelling by composing basic shapes and algorithmic "animation".
 
@@ -25,6 +27,8 @@ Key bindings:
 * <kbd>h</kbd> toggle help
 * <kbd>left</kbd>/<kbd>right</kbd> move Hugo
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
+
+![Hugo 2D](https://github.com/chrisbloecker/cg/blob/master/img/hugo-2d.png?raw=true)
 
 ### 03 - Hugo 3D
 A game similar to frogger, however, the player is running on the road rather than trying to cross it. Main foci of this assignment were lighting and 3D rendering.
@@ -39,6 +43,9 @@ Key bindings:
 * <kbd>F2</kbd> toggle moving light source
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
 
+![Hugo 3D](https://github.com/chrisbloecker/cg/blob/master/img/hugo-3d-1.png?raw=true)
+![Hugo 3D](https://github.com/chrisbloecker/cg/blob/master/img/hugo-3d-2.png?raw=true)
+
 ### 04 - Zoo
 A cage that contains a giraffe, a pig and a fish. Main foci of this assignment were texturing and picking. The animals can be picked with a left click an dragged. An animation can be triggerd with a right click on the animals.
 
@@ -50,6 +57,8 @@ Key bindings:
 * <kbd>n</kbd> toggle normals
 * <kbd>F1</kbd> toggle light source
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
+
+![Zoo](https://github.com/chrisbloecker/cg/blob/master/img/zoo.png?raw=true)
 
 ### 05 - Pong 3D
 A single player version of the classic game Pong in 3D. The main focus of this assignment was shadowing.
@@ -64,6 +73,8 @@ Key bindings:
 * <kbd>F2</kbd> toggle ball light source
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
 
+![Pong 3D](https://github.com/chrisbloecker/cg/blob/master/img/pong-3d.png?raw=true)
+
 ### 06 - Cube
 Algorithmic generation of a cube and its meshes. The cube can be rotated by dragging with the left mouse button pressed. Zooming can be done by dragging with the right mouse button pressed.
 
@@ -75,6 +86,8 @@ Key bindings:
 * <kbd>c</kbd> assign random colour to selected vertex
 * <kbd>s</kbd> toggle vertices
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit
+
+![Cube](https://github.com/chrisbloecker/cg/blob/master/img/cube.png?raw=true)
 
 ### 07 - Interpolation
 This program interpolates curves between points using one of the types of interpolation:
@@ -92,6 +105,9 @@ Key bindings:
 * <kbd>b</kbd> switch interpolation
 * <kbd>c</kbd> toggle convex hull/interpolation
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit
+
+![Interpolation](https://github.com/chrisbloecker/cg/blob/master/img/interpolation-1.png?raw=true)
+![Interpolation](https://github.com/chrisbloecker/cg/blob/master/img/interpolation-2.png?raw=true)
 
 ## Image Processing
 These programs are gimp plugins. Examples of their effects are shows on the standard image processing image of Lenna.
