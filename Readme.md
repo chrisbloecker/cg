@@ -61,7 +61,7 @@ Key bindings:
 ![Zoo](https://github.com/chrisbloecker/cg/blob/master/img/zoo.png?raw=true)
 
 ### 05 - Pong 3D
-A single player version of the classic game Pong in 3D. The main focus of this assignment was shadowing.
+A single player version of the classic game Pong in 3D. The main focus of this assignment was shadowing using stenceling.
 
 Key bindings:
 * <kbd>c</kbd> cheat mode (the ball can't escape anymore)
@@ -73,7 +73,8 @@ Key bindings:
 * <kbd>F2</kbd> toggle ball light source
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit the game
 
-![Pong 3D](https://github.com/chrisbloecker/cg/blob/master/img/pong-3d.png?raw=true)
+![Pong 3D](https://github.com/chrisbloecker/cg/blob/master/img/pong-3d-1.png?raw=true)
+![Pong 3D](https://github.com/chrisbloecker/cg/blob/master/img/pong-3d-2.png?raw=true)
 
 ### 06 - Cube
 Algorithmic generation of a cube and its meshes. The cube can be rotated by dragging with the left mouse button pressed. Zooming can be done by dragging with the right mouse button pressed.
