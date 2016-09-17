@@ -1,0 +1,16 @@
+main.o: main.c logic.h types.h vector3d.h geometry.h vertex.h \
+ matrixExtender.h matrix.h list.h io.h
+io.o: io.c io.h scene.h types.h logic.h vector3d.h geometry.h vertex.h \
+ matrixExtender.h matrix.h list.h stringOutput.h
+logic.o: logic.c logic.h types.h vector3d.h geometry.h vertex.h \
+ matrixExtender.h matrix.h list.h
+vector3d.o: vector3d.c vector3d.h
+vertex.o: vertex.c vertex.h
+scene.o: scene.c scene.h types.h logic.h vector3d.h geometry.h vertex.h \
+ matrixExtender.h matrix.h list.h stringOutput.h
+stringOutput.o: stringOutput.c stringOutput.h
+geometry.o: geometry.c geometry.h vertex.h vector3d.h matrixExtender.h \
+ matrix.h types.h list.h
+matrix.o: matrix.c matrix.h types.h
+matrixExtender.o: matrixExtender.c matrixExtender.h matrix.h types.h
+list.o: list.c list.h types.h

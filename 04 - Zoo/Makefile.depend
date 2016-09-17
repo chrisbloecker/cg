@@ -1,0 +1,18 @@
+main.o: main.c io.h
+io.o: io.c io.h scene.h types.h logic.h level.h vector.h drawing.h \
+ picking.h stringOutput.h texture.h
+logic.o: logic.c logic.h types.h level.h vector.h drawing.h displaylist.h \
+ texture.h
+vector.o: vector.c types.h vector.h
+scene.o: scene.c scene.h types.h logic.h level.h vector.h displaylist.h \
+ picking.h
+level.o: level.c level.h vector.h types.h
+drawing.o: drawing.c vector.h types.h displaylist.h material.h texture.h \
+ level.h
+material.o: material.c material.h
+displaylist.o: displaylist.c displaylist.h types.h logic.h level.h \
+ vector.h
+stringOutput.o: stringOutput.c stringOutput.h
+texture.o: texture.c texture.h imageLoader/include/cgimage.h \
+ displaylist.h types.h vector.h
+picking.o: picking.c picking.h scene.h types.h vector.h logic.h level.h

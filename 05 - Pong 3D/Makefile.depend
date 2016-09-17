@@ -1,0 +1,17 @@
+main.o: main.c io.h
+io.o: io.c io.h scene.h types.h texture.h logic.h object.h vector.h \
+ material.h stringOutput.h drawing.h
+logic.o: logic.c logic.h types.h texture.h object.h vector.h material.h \
+ drawing.h
+vector.o: vector.c types.h texture.h vector.h
+scene.o: scene.c scene.h types.h texture.h logic.h object.h vector.h \
+ material.h matrix.h object_cg.h drawing.h stringOutput.h
+drawing.o: drawing.c types.h texture.h material.h
+material.o: material.c material.h
+stringOutput.o: stringOutput.c stringOutput.h
+texture.o: texture.c texture.h imageLoader/include/cgimage.h types.h \
+ vector.h
+object.o: object.c object.h vector.h types.h texture.h material.h \
+ drawing.h logic.h
+matrix.o: matrix.c matrix.h types.h texture.h
+object_cg.o: object_cg.c object_cg.h types.h texture.h vector.h
