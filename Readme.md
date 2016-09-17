@@ -94,12 +94,17 @@ Key bindings:
 * <kbd>q</kbd>/<kbd>ESC</kbd> quit
 
 ## Image Processing
+These programs are gimp plugins. Examples of their effects are shows on the standard image processing image of Lenna.
+
+![Lenna](https://github.com/chrisbloecker/cg/blob/master/img/Lenna.jpg?raw=true)
 
 ### 08 - Histogram Transformations
 The plugin can be used to perform the following histogram transformations:
 * linear adjustment
 * exponential adjustment
 * equalisation
+
+![Equalised version of Lenna](https://github.com/chrisbloecker/cg/blob/master/img/Lenna-equalised.jpg?raw=true)
 
 ### 09 - Edge Detection
 The plugin can be used to run the following types of edge detectors over an image:
@@ -112,5 +117,9 @@ The boundary problem is solved by treating edges with one of the following strat
 * constant continuation
 * periodic continuation
 
+![Edges as detected using mexican hat filter on Lenna](https://github.com/chrisbloecker/cg/blob/master/img/Lenna-mexican-hat.jpg?raw=true)
+
 ### 10 - Embossing
 The plugin performs emboss filtering and pencil sketch.
+
+![Emboss filter applied to Lenna](https://github.com/chrisbloecker/cg/blob/master/img/Lenna-emboss.jpg?raw=true)
